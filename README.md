@@ -114,9 +114,8 @@ Both boards use a live bidirectional heartbeat system. The ESP32 sends a `HB` pu
 | Ai-Thinker BW16 | 1 | RTL8720DN, 5GHz capable |
 | NRF24L01+ modules | 1-4 | With 10µF capacitor on each VCC/GND |
 | SSD1306 OLED 128x64 | 1 | I2C, address 0x3C (or 0x3D, configurable) |
-| Push button | 1 | Mode cycle / long press = idle |
 | LED | 1 | External, connected to GPIO27 |
-| Decoupling capacitors | 4 | 10µF electrolytic, one per NRF module |
+| Decoupling capacitors | 1-4 | 10µF electrolytic, one per NRF module |
 
 ### Power
 - Both boards share **3.3V and GND**
