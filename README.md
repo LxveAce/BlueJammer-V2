@@ -1,5 +1,5 @@
 <h1 align="center">BlueJammer-V2 - by @emensta</h1>
-<h3 align="center">5GHz AP Remote Control via webserver, up to 4x nRF24, maximal power</h3>
+<h3 align="center">5GHz AP Remote Control via webserver, up to 4x nRF24, maximum power</h3>
 <div align="center">
   
 ![bluejammerv2banner](https://github.com/user-attachments/assets/de74713c-8b11-4200-8282-a86c3eb6faa6)
