@@ -200,7 +200,7 @@ Both boards use a live bidirectional heartbeat system. The ESP32 sends a `HB` pu
 
 ## Flashing
 
-Pre-compiled firmware is included in the `Firmware-Flasher_USE_THIS` folder. A ready-to-run batch flasher is included for Windows.
+Pre-compiled firmware is included in the `Firmware-Flasher` folder. A ready-to-run batch flasher is included for Windows.
 
 ### What you need
 All files must be in the **same folder**:
