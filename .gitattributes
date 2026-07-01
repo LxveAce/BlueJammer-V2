@@ -1,0 +1,9 @@
+# Treat vendored firmware images, flashing tools, and 3D assets as binary:
+# no end-of-line normalization and no attempted textual diffs.
+*.exe   binary
+*.bin   binary
+*.stl   binary
+*.3mf   binary
+
+# Keep the checksum manifest LF-only so `sha256sum -c` verifies on every OS.
+SHA256SUMS.txt text eol=lf
