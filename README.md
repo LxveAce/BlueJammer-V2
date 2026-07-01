@@ -33,6 +33,8 @@ BlueJammer-V2 is a two-board RF research platform built around the **ESP32-WROOM
 
 > This project is **closed source** and provided as pre-compiled firmware only. The source code is not publicly available. If you purchased this device from anyone other than official sources at [emensta.pages.dev](https://emensta.pages.dev) - **you have been scammed.**
 
+> **Fork provenance:** This repository (`LxveAce/BlueJammer-V2`) is a fork of the upstream project [`EmenstaNougat/BlueJammer-V2`](https://github.com/EmenstaNougat/BlueJammer-V2) by @emensta, which is the origin of all firmware and tooling here. SHA-256 checksums for every pre-compiled binary in this repo are recorded in [`Firmware-Flasher/PROVENANCE.md`](Firmware-Flasher/PROVENANCE.md) so they can be independently verified. All authorship, licensing, and terms remain those of the upstream author.
+
 ---
 
 ## Architecture
@@ -201,6 +203,8 @@ Both boards use a live bidirectional heartbeat system. The ESP32 sends a `HB` pu
 ## Flashing
 
 Pre-compiled firmware is included in the `Firmware-Flasher` folder. A ready-to-run batch flasher is included for Windows.
+
+> **Windows only:** The bundled flashing tools (`esptool.exe`, `amebatool.exe`, `ImageTool.exe`, `uartfwburn.exe`) and the `.bat` runner are Windows executables. Flashing from Linux or macOS requires the equivalent upstream tools and is not covered here. Per-file SHA-256 checksums for everything in this folder are listed in [`Firmware-Flasher/PROVENANCE.md`](Firmware-Flasher/PROVENANCE.md).
 
 ### What you need
 All files must be in the **same folder**:
